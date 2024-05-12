@@ -1,0 +1,17 @@
+{
+    "source": "",
+    "directRun": false,
+    "autobootRun" : true,
+    "files" : [
+        {
+            "type": "cc65",
+            "filename" : "BUILD.PRG",
+            "objectFile" : "src\\main.o",
+            "config" : "cx16-asm.local.cfg",
+            "sourcePath" : "src",
+            "startAddress" : 2049
+        }
+    ],
+    "emulatorDirectory": "/home/patrick/workspace/X16Emu",
+    "romFile": "/home/patrick/workspace/X16Emu/rom.bin"
+}
