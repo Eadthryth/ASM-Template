@@ -16,7 +16,7 @@
         },
         {
             "label": "ld65",
-            "command": "/home/patrick/workspace/cc65/bin/ld65 -v -Ln main.sym -m main.map -o BUILD.PRG -C linker.cfg --lib c64.lib ./src/main.o",
+            "command": "/home/patrick/workspace/cc65/bin/ld65 -v -Ln main.sym -m main.map -o BUILD.PRG -C cx16-asm.local.cfg --lib c64.lib ./src/main.o",
             "type": "shell",
             "args": [],
             "problemMatcher": [
@@ -29,24 +29,8 @@
             "dependsOn": [ "ca65" ]
         },
         {
-            "label": "box16",
-            "command": "/home/patrick/workspace/box16/build/box16/box16 -prg BUILD.PRG -run -zeroram",
-            "type": "shell",
-            "args": [],
-            "problemMatcher": [
-                "$tsc"
-            ],
-            "presentation": {
-                "reveal": "always"
-            },
-            "group": "build",
-            "dependsOn": ["ld65"]
-        },
-        {
             "label" : "Build",
-            "dependsOn" : [ "box16" ]
+            "dependsOn" : [ "ld65" ]
         }
-        
-        
     ]
 }

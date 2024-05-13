@@ -1,17 +1,16 @@
 {
     "source": "",
+    "machine" : "CommanderX16R47",
     "directRun": false,
-    "autobootRun" : true,
+    "autobootRun" : false,
     "files" : [
         {
             "type": "cc65",
             "filename" : "BUILD.PRG",
-            "objectFile" : "src\\main.o",
-            "config" : "cx16-asm.local.cfg",
-            "sourcePath" : "src",
-            "startAddress" : 2049
+            "objectFile" : "src/main.o",
+            "config" : "linker.cfg",
+            "sourcePath" : "src"
+            
         }
-    ],
-    "emulatorDirectory": "/home/patrick/workspace/X16Emu",
-    "romFile": "/home/patrick/workspace/X16Emu/rom.bin"
+    ]
 }
