@@ -1,16 +1,16 @@
 {
     "source": "",
-    "machine" : "CommanderX16R47",
     "directRun": false,
     "autobootRun" : false,
+    "memoryFillValue": 11,
     "files" : [
         {
             "type": "cc65",
             "filename" : "BUILD.PRG",
             "objectFile" : "src/main.o",
             "config" : "linker.cfg",
-            "sourcePath" : "src"
-            
+            "sourcePath" : "src",
+            "startAddress" : 2049
         }
     ]
 }
