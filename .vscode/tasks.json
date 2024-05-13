@@ -3,7 +3,7 @@
     "tasks": [
         {
             "label": "ca65",
-            "command": "/home/patrick/workspace/cc65/bin/ca65 -g -v --cpu 65c02 -g -t cx16 ./src/main.asm -l main.lst",
+            "command": "ca65 -g -v --cpu 65c02 -g -t cx16 ./src/main.asm -l main.lst",
             "type": "shell",
             "args": [],
             "problemMatcher": [
@@ -16,7 +16,7 @@
         },
         {
             "label": "ld65",
-            "command": "/home/patrick/workspace/cc65/bin/ld65 -v -Ln main.sym -m main.map -o BUILD.PRG -C cx16-asm.local.cfg --lib c64.lib ./src/main.o",
+            "command": "ld65 -v -Ln main.sym -m main.map -o BUILD.PRG -C cx16-asm.local.cfg --lib c64.lib ./src/main.o",
             "type": "shell",
             "args": [],
             "problemMatcher": [
