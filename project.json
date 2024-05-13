@@ -3,6 +3,7 @@
     "directRun": false,
     "autobootRun" : false,
     "memoryFillValue": 11,
+    "startStepping": true,
     "files" : [
         {
             "type": "cc65",

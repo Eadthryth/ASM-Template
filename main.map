@@ -1,7 +1,7 @@
 Modules list:
 -------------
 main.o:
-    CODE              Offs=000000  Size=000135  Align=00001  Fill=0000
+    CODE              Offs=000000  Size=000138  Align=00001  Fill=0000
     LOADADDR          Offs=000000  Size=000002  Align=00001  Fill=0000
     BASICSTUB         Offs=000000  Size=00000C  Align=00001  Fill=0000
     STARTUP           Offs=000000  Size=000003  Align=00001  Fill=0000
@@ -14,7 +14,7 @@ Name                   Start     End    Size  Align
 LOADADDR              0007FF  000800  000002  00001
 BASICSTUB             000801  00080C  00000C  00001
 STARTUP               00080D  00080F  000003  00001
-CODE                  000810  000944  000135  00001
+CODE                  000810  000947  000138  00001
 
 
 Exports list by name:
