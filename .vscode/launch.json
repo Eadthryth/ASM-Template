@@ -8,8 +8,8 @@
             "type": "bmasm",
             "request": "launch",
             "name": "Debug Application",
-            "program": "${workspaceFolder}/project.json",
-            "stopOnEntry": true,
+            "program": "${workspaceFolder}/.vscode/project.json",
+            "stopOnEntry": false,
             "debugArgs": [],
             "cwd": "${workspaceRoot}"
         }
