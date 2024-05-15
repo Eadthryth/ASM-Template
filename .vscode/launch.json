@@ -5,13 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "bmasm",
+            "type": "node",
             "request": "launch",
-            "name": "Debug Application",
-            "program": "${workspaceFolder}/.vscode/project.json",
-            "stopOnEntry": false,
-            "debugArgs": [],
-            "cwd": "${workspaceRoot}"
+            "name": "Debug",
+            "program": "${workspaceFolder}/.vscode/tasks.json",
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": "Build"
         }
     ]
 }
